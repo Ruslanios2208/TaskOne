@@ -15,25 +15,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDy-mY-Cst">
-                                <rect key="frame" x="100" y="366" width="120" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="oRa-tX-jcy"/>
-                                    <constraint firstAttribute="height" constant="120" id="p2X-Av-Uod"/>
-                                </constraints>
-                            </view>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="NDy-mY-Cst" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Gyc-Xt-xER"/>
-                            <constraint firstItem="NDy-mY-Cst" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bd0-gB-ccb"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="squareView" destination="NDy-mY-Cst" id="Bv7-Ya-0lm"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
